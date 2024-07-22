@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(5, 5, 62);
+}
+
+header{
+    background-color: rgb(5, 5, 62);
+}
+
+main{
+    background-color: rgb(5, 5, 62);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:90px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 18, 62);
+    
+}
+
+nav li{
+    margin: 10px;
+    list-style: none;
+    background-color:rgb(18, 18, 62);  
+}
+
+nav li a:hover{
+   color: rgb(153, 153, 247);
+    font-size: 1.05rem;
+}
+
+nav li a{
+    background-color:rgb(18, 18, 62) ;
+    text-decoration: none;
+}
+
+.left{
+    font-size: 1.7rem;
+    background-color: rgb(18, 18, 62) ;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 165px;
+}
+
+.leftsection > div{
+    width: 100%;
+}
+
+.leftsection{
+    height: 400px;
+    width: 35%;
+    margin-top: 10px;
+    font-size: 2.7rem;
+    align-items: center;
+    font-weight:600;
+    margin-top: 50px;
+}
+
+.rightsection{
+    height: 400px;
+    width: 35%;
+    background-color: transparent;
+    margin-bottom: 100px;
+    margin-top: 90px;
+}
+
+.jash{
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.img1{
+    height: 350px;
+    width: 80%;
+    cursor: pointer;
+}
+.img1:hover{
+    height: 360px;
+}
+
+.secondsection{
+    max-width: 85vw;
+    margin: auto; 
+    margin-top: 50px;
+    margin-bottom: 35px;
+    height: 600px;
+    background-color: rgb(5, 5, 62);
+}
+
+.secondsection h1{
+    font-size: 1.9rem;
+}
+
+hr{
+    margin-top: -150px;
+    width: 90%;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey-color{
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.secondsection .box{
+    background: white;
+    width: 55%;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.secondsection .verticle{
+    background-color: white;
+    height:392px;
+    width: 1px;
+    margin: 0 100px;
+}
+
+.img-top{
+   height: 34px;
+   position: relative;
+   top: -40px;
+   left: 4px;
+   border-radius: 35%;
+}
+
+.secondsection .container{
+    height: 200px;
+    border: 2px solid white;
+}
+
+.verticle-text{
+    position: relative;
+    bottom: 26px;
+    left: 6px;
+    width: 190px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+    
+.verticle-desc{
+    position: relative;
+    bottom: 19px;
+    left: 6px;
+    color: grey;
+    width: 150px;
+    font-size: 10px;
+}
+
+.verticle-desc a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: grey;
+    position: relative;
+    top: 20px;
+    padding: 2px;
+    display: flex;
+    font-weight: 700;
+}
+
+.verticle-desc a:hover{
+    color: white;
+}
+
+.verticle-text span{
+    margin-left: 30px;
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.verticle-text .js{
+    margin-right: 30px;
+}
+
+footer{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(45, 45, 132);
+    color:  white;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    padding-top: 80px;
+}
+
+.footer-first{
+    font-size: 1.7rem;
+}
+
+.flex a{
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flex a:hover{
+    color: rgb(105, 90, 234);
+    font-size: 0.9rem;
+}
+
+.leftsection .btn{
+    background-color: #050505;
+    color: white;
+    padding: 10px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 5px ;
+    cursor: pointer;
+    top:7px;
+}
+
+.leftsection .btn:hover{
+    background-color: rgb(66, 45, 66);
+}
